@@ -1,0 +1,159 @@
+sdas
+
+das
+
+dasas
+dasasd Parsed JSON: {
+  "JSONDATA": {
+    "presentation": {
+      "id": "presentation_id",
+      "title": "Tower Ledhu Sir - An Unfolding Crisis in Samacharpuram",
+      "author": "Author Name",
+      "timestamp": "2023-10-05",
+      "slides": [
+        {
+          "elements": [
+            {
+              "type": "background",
+              "value": {
+                "gradient": {
+                  "type": "linear",
+                  "stops": [
+                    {
+                      "color": "#F5F7FA",
+                      "position": "0%"
+                    },
+                    {
+                      "color": "#B1EDE8",
+                      "position": "100%"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "A Heist Inspired by a Series of Tower Thefts",
+                "x": 50,
+                "y": 50,
+                "fontSize": 28,
+                "fontColor": "#000000",
+                "textAlign": "center",
+                "bold": true,
+                "shadow": {
+                  "color": "#888888",
+                  "offsetX": 2,
+                  "offsetY": 2,
+                  "blurRadius": 3
+                }
+              }
+            },
+            {
+              "type": "image",
+              "value": {
+                "url": "IMAGE_LINK_HOLDER_1",
+                "x": 150,
+                "y": 150,
+                "width": 500,
+                "height": 300
+              }
+            }
+          ]
+        },
+        {
+          "elements": [
+            {
+              "type": "background",
+              "value": {
+                "color": "#EAEAEA"
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "The Chaos in Samacharpuram: Disconnected and Opportunistic",
+                "x": 50,
+                "y": 50,
+                "fontSize": 22,
+                "fontColor": "#333333",
+                "textAlign": "left",
+                "bold": true
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "Residents exploit the tower theft while the village grapples with no connectivity.",
+                "x": 70,
+                "y": 100,
+                "fontSize": 18,
+                "fontColor": "#555555",
+                "textAlign": "left"
+              }
+            },
+            {
+              "type": "image",
+              "value": {
+                "url": "IMAGE_LINK_HOLDER_2",
+                "x": 200,
+                "y": 150,
+                "width": 400,
+                "height": 250
+              }
+            }
+          ]
+        },
+        {
+          "elements": [
+            {
+              "type": "background",
+              "value": {
+                "color": "#FFFFFF"
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "SI Prabhu's Double Duty: Healing Communal Rifts and Solving Crimes",
+                "x": 50,
+                "y": 50,
+                "fontSize": 24,
+                "fontColor": "#000000",
+                "textAlign": "left",
+                "bold": true
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "Without mobile network, SI Prabhu navigates the turbulent waters of local tensions and major crimes.",
+                "x": 70,
+                "y": 100,
+                "fontSize": 18,
+                "fontColor": "#777777",
+                "textAlign": "left"
+              }
+            },
+            {
+              "type": "image",
+              "value": {
+                "url": "IMAGE_LINK_HOLDER_3",
+                "x": 250,
+                "y": 170,
+                "width": 350,
+                "height": 300
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "IMAGEDESC": {
+    "IMAGE_LINK_HOLDER_1": "Image depicting a series of mobile towers, emphasizing the thefts and their impact.",
+    "IMAGE_LINK_HOLDER_2": "Image showing the residents of Samacharpuram in chaos, some attempting to take advantage of the lack of connectivity.",
+    "IMAGE_LINK_HOLDER_3": "Image of SI Prabhu speaking to villagers, trying to mediate communal tensions while investigating the tower theft."
+  }
+}
+madhangokul@Madhans-MacBook-Pro trial % 

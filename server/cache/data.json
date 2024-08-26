@@ -1,0 +1,198 @@
+{
+  "JSONDATA": {
+    "presentation": {
+      "id": "tower_ledhu_sir_pitch_deck",
+      "title": "Tower Ledhu Sir",
+      "author": "Author Name",
+      "timestamp": "Date",
+      "slides": [
+        {
+          "elements": [
+            {
+              "type": "background",
+              "value": {
+                "color": "#FFFAF0"
+              }
+            },
+            {
+              "type": "image",
+              "value": {
+                "url": "IMAGE_LINK_HOLDER_1",
+                "x": 50,
+                "y": 100,
+                "width": 700,
+                "height": 300
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "Samacharpuram's Tech Nightmare",
+                "x": 100,
+                "y": 50,
+                "fontSize": 32,
+                "fontColor": "#FF4500",
+                "textAlign": "center",
+                "bold": true,
+                "shadow": {
+                  "color": "#555555",
+                  "offsetX": 2,
+                  "offsetY": 2,
+                  "blurRadius": 4
+                }
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "Inspired by the 600 Mobile Towers theft in Tamilnadu, a petty gang in Samacharpuram plans a copycat heist.",
+                "x": 90,
+                "y": 420,
+                "fontSize": 20,
+                "fontColor": "#000000",
+                "textAlign": "center",
+                "bold": false,
+                "box": {
+                  "rounded": true,
+                  "padding": 10,
+                  "borderColor": "#FF4500",
+                  "borderWidth": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elements": [
+            {
+              "type": "background",
+              "value": {
+                "color": "#FFF0F5"
+              }
+            },
+            {
+              "type": "image",
+              "value": {
+                "url": "IMAGE_LINK_HOLDER_2",
+                "x": 100,
+                "y": 100,
+                "width": 600,
+                "height": 300
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "Community in Chaos",
+                "x": 150,
+                "y": 50,
+                "fontSize": 32,
+                "fontColor": "#8B0000",
+                "textAlign": "center",
+                "bold": true,
+                "shadow": {
+                  "color": "#666666",
+                  "offsetX": 2,
+                  "offsetY": 2,
+                  "blurRadius": 4
+                }
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "While most villagers are deeply affected by the tower theft, some look to exploit the situation to their advantage.",
+                "x": 70,
+                "y": 420,
+                "fontSize": 20,
+                "fontColor": "#000000",
+                "textAlign": "center",
+                "bold": false,
+                "box": {
+                  "rounded": true,
+                  "padding": 10,
+                  "borderColor": "#8B0000",
+                  "borderWidth": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "elements": [
+            {
+              "type": "background",
+              "value": {
+                "gradient": {
+                  "type": "linear",
+                  "stops": [
+                    {
+                      "color": "#87CEFA",
+                      "position": "0%"
+                    },
+                    {
+                      "color": "#4682B4",
+                      "position": "100%"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "image",
+              "value": {
+                "url": "IMAGE_LINK_HOLDER_3",
+                "x": 50,
+                "y": 120,
+                "width": 700,
+                "height": 300
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "SI Prabhu's Himalayan Task",
+                "x": 100,
+                "y": 50,
+                "fontSize": 32,
+                "fontColor": "#00008B",
+                "textAlign": "center",
+                "bold": true,
+                "shadow": {
+                  "color": "#444444",
+                  "offsetX": 2,
+                  "offsetY": 2,
+                  "blurRadius": 4
+                }
+              }
+            },
+            {
+              "type": "text",
+              "value": {
+                "content": "Newly appointed SI Prabhu must navigate communal strife and solve the mobile tower heist—all without any network in Samacharpuram.",
+                "x": 80,
+                "y": 440,
+                "fontSize": 20,
+                "fontColor": "#FFFFFF",
+                "textAlign": "center",
+                "bold": false,
+                "box": {
+                  "rounded": true,
+                  "padding": 10,
+                  "borderColor": "#00008B",
+                  "borderWidth": 2,
+                  "highlightColor": "#4682B4"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "IMAGEDESC": {
+    "IMAGE_LINK_HOLDER_1": "Image depicting mobile tower in the rural village of Samacharpuram.",
+    "IMAGE_LINK_HOLDER_2": "Image showing affected villagers in chaos.",
+    "IMAGE_LINK_HOLDER_3": "Image of SI Prabhu dealing with the crisis in Samacharpuram."
+  }
+}
