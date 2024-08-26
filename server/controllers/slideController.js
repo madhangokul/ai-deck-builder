@@ -62,7 +62,7 @@ const generateSlideDeck = async (req, res) => {
     }
 
     const slides = presentation.slides;
-    const imageDesc = slideData.IMAGEDESC;
+    let imageDesc = slideData.IMAGEDESC;
 
     if (!slides || !Array.isArray(slides)) {
       console.error('Slides not found in presentation:', JSON.stringify(presentation, null, 2));
@@ -76,11 +76,20 @@ const generateSlideDeck = async (req, res) => {
 
     // Step 6: Process images and replace placeholders with S3 URLs
     console.log('Processing image descriptions...');
-    console.log(imagedesc)
-    for (const [placeholder, description] of Object.entries(imageDesc)) {
+    // Check if imageDesc is an array and convert it to an object if true
+    if (Array.isArray(imageDesc)) {
+      const newImageDesc = {};
+      imageDesc.forEach(desc => {
+        newImageDesc[desc.id] = desc.description;
+      });
+      imageDesc = newImageDesc;
+    }
+    console.log(imageDesc);
+
+    for (const [id, description] of Object.entries(imageDesc)) {
       try {
         // Generate the image using Ideogram API
-        console.log(placeholder,":",description)
+        console.log(id, ":", description);
         const requestPayload = {
           image_request: {
             prompt: description,
@@ -94,6 +103,7 @@ const generateSlideDeck = async (req, res) => {
 
         const response = await ideogramApi.post('/generate', requestPayload);
         const imageUrl = response.data.data[0].url;
+        console.log("Ideogram URL: ", imageUrl)
 
         // Download and process the image
         const imageResponse = await axios.get(imageUrl, { responseType: 'arraybuffer' });
@@ -103,22 +113,27 @@ const generateSlideDeck = async (req, res) => {
           .toBuffer();
 
         // Upload the image to S3 and get the URL
+        console.log("Upploading to s3" )
+
         const s3Url = await uploadToS3(compressedImage, process.env.S3_BUCKET_NAME, `${uuidv4()}.jpg`);
+        console.log("s3 URL: ", s3Url )
+
 
         // Replace the placeholder in the slides with the S3 URL
         slides.forEach(slide => {
           slide.elements.forEach(element => {
-            if (element.type === 'image' && element.value.url === placeholder) {
+            if (element.type === 'image' && element.value.url === id) {
               element.value.url = s3Url;
             }
           });
         });
 
-        console.log(`Replaced ${placeholder} with ${s3Url}`);
+        console.log(`Replaced ${id} with ${s3Url}`);
       } catch (imageError) {
-        console.error(`Error processing image ${placeholder}:`, imageError.message);
+        console.error(`Error processing image ${id}:`, imageError.message);
       }
     }
+
 
     // Step 7: Additional processing of slides and returning the response
     console.log('Slide deck generation complete. Returning final JSON.');

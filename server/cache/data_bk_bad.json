@@ -1,0 +1,134 @@
+{
+  "JSONDATA": {
+    "presentation": {
+      "id": "001",
+      "title": "Business Investment Opportunity in Mozambique",
+      "author": "Mejel",
+      "timestamp": "2022-09-22",
+      "slides": [
+        {
+          "id": "slide_01",
+          "background": "slide_01_background_image",
+          "text": {
+            "title": "Introduction",
+            "content": "Target market, opportunities, and challenges in Mozambique"
+          },
+          "images": [
+            "slide_01_image_01"
+          ]
+        },
+        {
+          "id": "slide_02",
+          "background": "slide_02_background_image",
+          "text": {
+            "title": "Economic Overview",
+            "content": "Growth trends, GDP, key sectors"
+          },
+          "images": [
+            "slide_02_image_01"
+          ]
+        },
+        {
+          "id": "slide_03",
+          "background": "slide_03_background_image",
+          "text": {
+            "title": "Investment Climate",
+            "content": "Government policies, ease of doing business, existing foreign investments"
+          },
+          "images": [
+            "slide_03_image_01",
+            "slide_03_image_02"
+          ]
+        },
+        {
+          "id": "slide_04",
+          "background": "slide_04_background_image",
+          "text": {
+            "title": "Market Opportunities",
+            "content": "Prospects in agriculture, manufacturing, and service sectors"
+          },
+          "images": [
+            "slide_04_image_01"
+          ]
+        },
+        {
+          "id": "slide_05",
+          "background": "slide_05_background_image",
+          "text": {
+            "title": "Risk Analysis",
+            "content": "Political, economic, and social risks"
+          },
+          "images": [
+            "slide_05_image_01",
+            "slide_05_image_02"
+          ]
+        },
+        {
+          "id": "slide_06",
+          "background": "slide_06_background_image",
+          "text": {
+            "title": "Case Studies",
+            "content": "Success stories of businesses operating in Mozambique"
+          },
+          "images": [
+            "slide_06_image_01",
+            "slide_06_image_02"
+          ]
+        },
+        {
+          "id": "slide_07",
+          "background": "slide_07_background_image",
+          "text": {
+            "title": "Conclusion",
+            "content": "Final pitch and call to action"
+          },
+          "images": [
+            "slide_07_image_01"
+          ]
+        }
+      ]
+    }
+  },
+  "IMAGEDESC": [
+    {
+      "id": "slide_01_image_01",
+      "description": "Mozambique map with key cities marked"
+    },
+    {
+      "id": "slide_02_image_01",
+      "description": "Graphs showing economic growth"
+    },
+    {
+      "id": "slide_03_image_01",
+      "description": "Charts depicting investment climate"
+    },
+    {
+      "id": "slide_03_image_02",
+      "description": "Photos of major foreign businesses"
+    },
+    {
+      "id": "slide_04_image_01",
+      "description": "Illustrations of market opportunities"
+    },
+    {
+      "id": "slide_05_image_01",
+      "description": "Graphs of risk analysis"
+    },
+    {
+      "id": "slide_05_image_02",
+      "description": "Photos of risks in context"
+    },
+    {
+      "id": "slide_06_image_01",
+      "description": "Photos and logos of successful businesses"
+    },
+    {
+      "id": "slide_06_image_02",
+      "description": "Charts showing their growth trends"
+    },
+    {
+      "id": "slide_07_image_01",
+      "description": "Bold conclusion statement"
+    }
+  ]
+}

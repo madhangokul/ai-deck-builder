@@ -1,134 +1,251 @@
 {
   "JSONDATA": {
     "presentation": {
-      "id": "001",
-      "title": "Business Investment Opportunity in Mozambique",
+      "id": "presentation_id",
+      "title": "Mozambique",
       "author": "Mejel",
-      "timestamp": "2022-09-22",
+      "timestamp": "Date",
       "slides": [
         {
-          "id": "slide_01",
-          "background": "slide_01_background_image",
-          "text": {
-            "title": "Introduction",
-            "content": "Target market, opportunities, and challenges in Mozambique"
-          },
-          "images": [
-            "slide_01_image_01"
-          ]
+          "type": "background",
+          "value": {
+            "color": "#FFFFFF",
+            "gradient": {
+              "type": "linear",
+              "stops": [
+                {
+                  "color": "#FF0000",
+                  "position": "0%"
+                },
+                {
+                  "color": "#0000FF",
+                  "position": "100%"
+                }
+              ]
+            }
+          }
         },
         {
-          "id": "slide_02",
-          "background": "slide_02_background_image",
-          "text": {
-            "title": "Economic Overview",
-            "content": "Growth trends, GDP, key sectors"
-          },
-          "images": [
-            "slide_02_image_01"
-          ]
+          "type": "image",
+          "value": {
+            "url": "IMAGE_LINK_HOLDER_1",
+            "x": 100,
+            "y": 200,
+            "width": 400,
+            "height": 300
+          }
         },
         {
-          "id": "slide_03",
-          "background": "slide_03_background_image",
-          "text": {
-            "title": "Investment Climate",
-            "content": "Government policies, ease of doing business, existing foreign investments"
-          },
-          "images": [
-            "slide_03_image_01",
-            "slide_03_image_02"
-          ]
+          "type": "text",
+          "value": {
+            "content": "Title: Mozambique",
+            "x": 50,
+            "y": 100,
+            "fontSize": 24,
+            "fontColor": "#000000",
+            "highlightColor": "#FFFF00",
+            "textAlign": "center",
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "shadow": {
+              "color": "#333333",
+              "offsetX": 2,
+              "offsetY": 2,
+              "blurRadius": 4
+            },
+            "box": {
+              "rounded": true,
+              "padding": 10,
+              "borderColor": "#000000",
+              "borderWidth": 2
+            }
+          }
         },
         {
-          "id": "slide_04",
-          "background": "slide_04_background_image",
-          "text": {
-            "title": "Market Opportunities",
-            "content": "Prospects in agriculture, manufacturing, and service sectors"
-          },
-          "images": [
-            "slide_04_image_01"
-          ]
+          "type": "text",
+          "value": {
+            "content": "Logline: Kari Vardhan - a Dreamer and middle class Father of two children...",
+            "x": 50,
+            "y": 200,
+            "fontSize": 24,
+            "fontColor": "#000000",
+            "highlightColor": "#FFFF00",
+            "textAlign": "center",
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "shadow": {
+              "color": "#333333",
+              "offsetX": 2,
+              "offsetY": 2,
+              "blurRadius": 4
+            },
+            "box": {
+              "rounded": true,
+              "padding": 10,
+              "borderColor": "#000000",
+              "borderWidth": 2
+            }
+          }
         },
         {
-          "id": "slide_05",
-          "background": "slide_05_background_image",
-          "text": {
-            "title": "Risk Analysis",
-            "content": "Political, economic, and social risks"
-          },
-          "images": [
-            "slide_05_image_01",
-            "slide_05_image_02"
-          ]
+          "type": "image",
+          "value": {
+            "url": "IMAGE_LINK_HOLDER_2",
+            "x": 100,
+            "y": 300,
+            "width": 400,
+            "height": 300
+          }
         },
         {
-          "id": "slide_06",
-          "background": "slide_06_background_image",
-          "text": {
-            "title": "Case Studies",
-            "content": "Success stories of businesses operating in Mozambique"
-          },
-          "images": [
-            "slide_06_image_01",
-            "slide_06_image_02"
-          ]
+          "type": "text",
+          "value": {
+            "content": "Kari and Rajan",
+            "x": 50,
+            "y": 300,
+            "fontSize": 24,
+            "fontColor": "#000000",
+            "highlightColor": "#FFFF00",
+            "textAlign": "center",
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "shadow": {
+              "color": "#333333",
+              "offsetX": 2,
+              "offsetY": 2,
+              "blurRadius": 4
+            },
+            "box": {
+              "rounded": true,
+              "padding": 10,
+              "borderColor": "#000000",
+              "borderWidth": 2
+            }
+          }
         },
         {
-          "id": "slide_07",
-          "background": "slide_07_background_image",
-          "text": {
-            "title": "Conclusion",
-            "content": "Final pitch and call to action"
-          },
-          "images": [
-            "slide_07_image_01"
-          ]
+          "type": "text",
+          "value": {
+            "content": "Act 1",
+            "x": 50,
+            "y": 400,
+            "fontSize": 24,
+            "fontColor": "#000000",
+            "highlightColor": "#FFFF00",
+            "textAlign": "center",
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "shadow": {
+              "color": "#333333",
+              "offsetX": 2,
+              "offsetY": 2,
+              "blurRadius": 4
+            },
+            "box": {
+              "rounded": true,
+              "padding": 10,
+              "borderColor": "#000000",
+              "borderWidth": 2
+            }
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "url": "IMAGE_LINK_HOLDER_3",
+            "x": 100,
+            "y": 500,
+            "width": 400,
+            "height": 300
+          }
+        },
+        {
+          "type": "text",
+          "value": {
+            "content": "Act 2",
+            "x": 50,
+            "y": 600,
+            "fontSize": 24,
+            "fontColor": "#000000",
+            "highlightColor": "#FFFF00",
+            "textAlign": "center",
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "shadow": {
+              "color": "#333333",
+              "offsetX": 2,
+              "offsetY": 2,
+              "blurRadius": 4
+            },
+            "box": {
+              "rounded": true,
+              "padding": 10,
+              "borderColor": "#000000",
+              "borderWidth": 2
+            }
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "url": "IMAGE_LINK_HOLDER_4",
+            "x": 100,
+            "y": 700,
+            "width": 400,
+            "height": 300
+          }
+        },
+        {
+          "type": "text",
+          "value": {
+            "content": "Act 3",
+            "x": 50,
+            "y": 800,
+            "fontSize": 24,
+            "fontColor": "#000000",
+            "highlightColor": "#FFFF00",
+            "textAlign": "center",
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "shadow": {
+              "color": "#333333",
+              "offsetX": 2,
+              "offsetY": 2,
+              "blurRadius": 4
+            },
+            "box": {
+              "rounded": true,
+              "padding": 10,
+              "borderColor": "#000000",
+              "borderWidth": 2
+            }
+          }
         }
       ]
     }
   },
   "IMAGEDESC": [
     {
-      "id": "slide_01_image_01",
-      "description": "Mozambique map with key cities marked"
+      "id": "IMAGE_LINK_HOLDER_1",
+      "description": "The image is of the movie title 'Mozambique', in bold font and vibrant colors."
     },
     {
-      "id": "slide_02_image_01",
-      "description": "Graphs showing economic growth"
+      "id": "IMAGE_LINK_HOLDER_2",
+      "description": "This image features Kari and Rajan, showcasing their bond and the tough circumstances they're faced with."
     },
     {
-      "id": "slide_03_image_01",
-      "description": "Charts depicting investment climate"
+      "id": "IMAGE_LINK_HOLDER_3",
+      "description": "An image showing the thrilling beginning of Act 1, the anticipation lingers in the air."
     },
     {
-      "id": "slide_03_image_02",
-      "description": "Photos of major foreign businesses"
-    },
-    {
-      "id": "slide_04_image_01",
-      "description": "Illustrations of market opportunities"
-    },
-    {
-      "id": "slide_05_image_01",
-      "description": "Graphs of risk analysis"
-    },
-    {
-      "id": "slide_05_image_02",
-      "description": "Photos of risks in context"
-    },
-    {
-      "id": "slide_06_image_01",
-      "description": "Photos and logos of successful businesses"
-    },
-    {
-      "id": "slide_06_image_02",
-      "description": "Charts showing their growth trends"
-    },
-    {
-      "id": "slide_07_image_01",
-      "description": "Bold conclusion statement"
+      "id": "IMAGE_LINK_HOLDER_4",
+      "description": "The image is of the beautiful cityscape of Mozambique with the vast ocean beside it, representing Act 2."
     }
   ]
 }
