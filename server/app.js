@@ -12,7 +12,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({ origin: process.env.CORS_ORIGIN }));
+app.use(cors());
 app.use(express.json());
 
 // Routes

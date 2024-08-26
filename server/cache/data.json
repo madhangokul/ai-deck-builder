@@ -1,198 +1,134 @@
 {
   "JSONDATA": {
     "presentation": {
-      "id": "tower_ledhu_sir_pitch_deck",
-      "title": "Tower Ledhu Sir",
-      "author": "Author Name",
-      "timestamp": "Date",
+      "id": "001",
+      "title": "Business Investment Opportunity in Mozambique",
+      "author": "Mejel",
+      "timestamp": "2022-09-22",
       "slides": [
         {
-          "elements": [
-            {
-              "type": "background",
-              "value": {
-                "color": "#FFFAF0"
-              }
-            },
-            {
-              "type": "image",
-              "value": {
-                "url": "IMAGE_LINK_HOLDER_1",
-                "x": 50,
-                "y": 100,
-                "width": 700,
-                "height": 300
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "content": "Samacharpuram's Tech Nightmare",
-                "x": 100,
-                "y": 50,
-                "fontSize": 32,
-                "fontColor": "#FF4500",
-                "textAlign": "center",
-                "bold": true,
-                "shadow": {
-                  "color": "#555555",
-                  "offsetX": 2,
-                  "offsetY": 2,
-                  "blurRadius": 4
-                }
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "content": "Inspired by the 600 Mobile Towers theft in Tamilnadu, a petty gang in Samacharpuram plans a copycat heist.",
-                "x": 90,
-                "y": 420,
-                "fontSize": 20,
-                "fontColor": "#000000",
-                "textAlign": "center",
-                "bold": false,
-                "box": {
-                  "rounded": true,
-                  "padding": 10,
-                  "borderColor": "#FF4500",
-                  "borderWidth": 2
-                }
-              }
-            }
+          "id": "slide_01",
+          "background": "slide_01_background_image",
+          "text": {
+            "title": "Introduction",
+            "content": "Target market, opportunities, and challenges in Mozambique"
+          },
+          "images": [
+            "slide_01_image_01"
           ]
         },
         {
-          "elements": [
-            {
-              "type": "background",
-              "value": {
-                "color": "#FFF0F5"
-              }
-            },
-            {
-              "type": "image",
-              "value": {
-                "url": "IMAGE_LINK_HOLDER_2",
-                "x": 100,
-                "y": 100,
-                "width": 600,
-                "height": 300
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "content": "Community in Chaos",
-                "x": 150,
-                "y": 50,
-                "fontSize": 32,
-                "fontColor": "#8B0000",
-                "textAlign": "center",
-                "bold": true,
-                "shadow": {
-                  "color": "#666666",
-                  "offsetX": 2,
-                  "offsetY": 2,
-                  "blurRadius": 4
-                }
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "content": "While most villagers are deeply affected by the tower theft, some look to exploit the situation to their advantage.",
-                "x": 70,
-                "y": 420,
-                "fontSize": 20,
-                "fontColor": "#000000",
-                "textAlign": "center",
-                "bold": false,
-                "box": {
-                  "rounded": true,
-                  "padding": 10,
-                  "borderColor": "#8B0000",
-                  "borderWidth": 2
-                }
-              }
-            }
+          "id": "slide_02",
+          "background": "slide_02_background_image",
+          "text": {
+            "title": "Economic Overview",
+            "content": "Growth trends, GDP, key sectors"
+          },
+          "images": [
+            "slide_02_image_01"
           ]
         },
         {
-          "elements": [
-            {
-              "type": "background",
-              "value": {
-                "gradient": {
-                  "type": "linear",
-                  "stops": [
-                    {
-                      "color": "#87CEFA",
-                      "position": "0%"
-                    },
-                    {
-                      "color": "#4682B4",
-                      "position": "100%"
-                    }
-                  ]
-                }
-              }
-            },
-            {
-              "type": "image",
-              "value": {
-                "url": "IMAGE_LINK_HOLDER_3",
-                "x": 50,
-                "y": 120,
-                "width": 700,
-                "height": 300
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "content": "SI Prabhu's Himalayan Task",
-                "x": 100,
-                "y": 50,
-                "fontSize": 32,
-                "fontColor": "#00008B",
-                "textAlign": "center",
-                "bold": true,
-                "shadow": {
-                  "color": "#444444",
-                  "offsetX": 2,
-                  "offsetY": 2,
-                  "blurRadius": 4
-                }
-              }
-            },
-            {
-              "type": "text",
-              "value": {
-                "content": "Newly appointed SI Prabhu must navigate communal strife and solve the mobile tower heist—all without any network in Samacharpuram.",
-                "x": 80,
-                "y": 440,
-                "fontSize": 20,
-                "fontColor": "#FFFFFF",
-                "textAlign": "center",
-                "bold": false,
-                "box": {
-                  "rounded": true,
-                  "padding": 10,
-                  "borderColor": "#00008B",
-                  "borderWidth": 2,
-                  "highlightColor": "#4682B4"
-                }
-              }
-            }
+          "id": "slide_03",
+          "background": "slide_03_background_image",
+          "text": {
+            "title": "Investment Climate",
+            "content": "Government policies, ease of doing business, existing foreign investments"
+          },
+          "images": [
+            "slide_03_image_01",
+            "slide_03_image_02"
+          ]
+        },
+        {
+          "id": "slide_04",
+          "background": "slide_04_background_image",
+          "text": {
+            "title": "Market Opportunities",
+            "content": "Prospects in agriculture, manufacturing, and service sectors"
+          },
+          "images": [
+            "slide_04_image_01"
+          ]
+        },
+        {
+          "id": "slide_05",
+          "background": "slide_05_background_image",
+          "text": {
+            "title": "Risk Analysis",
+            "content": "Political, economic, and social risks"
+          },
+          "images": [
+            "slide_05_image_01",
+            "slide_05_image_02"
+          ]
+        },
+        {
+          "id": "slide_06",
+          "background": "slide_06_background_image",
+          "text": {
+            "title": "Case Studies",
+            "content": "Success stories of businesses operating in Mozambique"
+          },
+          "images": [
+            "slide_06_image_01",
+            "slide_06_image_02"
+          ]
+        },
+        {
+          "id": "slide_07",
+          "background": "slide_07_background_image",
+          "text": {
+            "title": "Conclusion",
+            "content": "Final pitch and call to action"
+          },
+          "images": [
+            "slide_07_image_01"
           ]
         }
       ]
     }
   },
-  "IMAGEDESC": {
-    "IMAGE_LINK_HOLDER_1": "Image depicting mobile tower in the rural village of Samacharpuram.",
-    "IMAGE_LINK_HOLDER_2": "Image showing affected villagers in chaos.",
-    "IMAGE_LINK_HOLDER_3": "Image of SI Prabhu dealing with the crisis in Samacharpuram."
-  }
+  "IMAGEDESC": [
+    {
+      "id": "slide_01_image_01",
+      "description": "Mozambique map with key cities marked"
+    },
+    {
+      "id": "slide_02_image_01",
+      "description": "Graphs showing economic growth"
+    },
+    {
+      "id": "slide_03_image_01",
+      "description": "Charts depicting investment climate"
+    },
+    {
+      "id": "slide_03_image_02",
+      "description": "Photos of major foreign businesses"
+    },
+    {
+      "id": "slide_04_image_01",
+      "description": "Illustrations of market opportunities"
+    },
+    {
+      "id": "slide_05_image_01",
+      "description": "Graphs of risk analysis"
+    },
+    {
+      "id": "slide_05_image_02",
+      "description": "Photos of risks in context"
+    },
+    {
+      "id": "slide_06_image_01",
+      "description": "Photos and logos of successful businesses"
+    },
+    {
+      "id": "slide_06_image_02",
+      "description": "Charts showing their growth trends"
+    },
+    {
+      "id": "slide_07_image_01",
+      "description": "Bold conclusion statement"
+    }
+  ]
 }

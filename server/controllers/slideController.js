@@ -76,9 +76,11 @@ const generateSlideDeck = async (req, res) => {
 
     // Step 6: Process images and replace placeholders with S3 URLs
     console.log('Processing image descriptions...');
+    console.log(imagedesc)
     for (const [placeholder, description] of Object.entries(imageDesc)) {
       try {
         // Generate the image using Ideogram API
+        console.log(placeholder,":",description)
         const requestPayload = {
           image_request: {
             prompt: description,
